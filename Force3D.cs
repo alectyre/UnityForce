@@ -107,9 +107,4 @@ public class Force3D {
 
         return _velocity;
     }
-
-    public float CalculateMaxSpeed(float forceMagnitude)
-    {
-        return ((forceMagnitude / drag) - Time.fixedDeltaTime * forceMagnitude) / mass;
-    }
 }
